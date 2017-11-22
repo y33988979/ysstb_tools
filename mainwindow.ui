@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>950</width>
+    <height>687</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>841</width>
+      <height>441</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Tuner配置</string>
+     </attribute>
+     <widget class="QGroupBox" name="TSI_port_set">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>140</y>
+        <width>790</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>TS端口设置</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_7">
+       <item row="1" column="0">
+        <widget class="QGroupBox" name="TSI0_pinmux">
+         <property name="title">
+          <string>TSI0：</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0">
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_4">
+              <item>
+               <widget class="QLabel" name="label_5">
+                <property name="text">
+                 <string>TSI_DAT管脚：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="tsi0_dat_comboBox">
+                <item>
+                 <property name="text">
+                  <string>GPIO4_5</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO4_6</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO6_1</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_7">
+              <item>
+               <widget class="QLabel" name="label_8">
+                <property name="text">
+                 <string>TSI_VALID管脚：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="tsi0_valid_comboBox">
+                <item>
+                 <property name="text">
+                  <string>GPIO4_7</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO6_0</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_6">
+              <item>
+               <widget class="QLabel" name="label_7">
+                <property name="text">
+                 <string>TSI_CLK管脚：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="tsi0_clk_comboBox">
+                <item>
+                 <property name="text">
+                  <string>GPIO4_6</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO4_7</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO6_2</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_5">
+              <item>
+               <widget class="QLabel" name="label_6">
+                <property name="text">
+                 <string>TSI_SYNC管脚：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="tsi0_sync_comboBox">
+                <item>
+                 <property name="text">
+                  <string>GPIO4_5</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QGroupBox" name="TSI2_pinmux">
+         <property name="title">
+          <string>TSI2：</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="0" column="0">
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_20">
+              <item>
+               <widget class="QLabel" name="label_20">
+                <property name="text">
+                 <string>TSI_DAT管脚：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="tsi2_dat_comboBox">
+                <item>
+                 <property name="text">
+                  <string>GPIO4_5</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO4_6</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO6_1</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_21">
+              <item>
+               <widget class="QLabel" name="label_21">
+                <property name="text">
+                 <string>TSI_VALID管脚：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="tsi2_valid_comboBox">
+                <item>
+                 <property name="text">
+                  <string>GPIO4_7</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO6_0</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_19">
+              <item>
+               <widget class="QLabel" name="label_19">
+                <property name="text">
+                 <string>TSI_CLK管脚：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="tsi2_clk_comboBox">
+                <item>
+                 <property name="text">
+                  <string>GPIO4_6</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO4_7</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO6_2</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_22">
+              <item>
+               <widget class="QLabel" name="label_22">
+                <property name="text">
+                 <string>TSI_SYNC管脚：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="tsi2_sync_comboBox">
+                <item>
+                 <property name="text">
+                  <string>GPIO4_5</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QGroupBox" name="TSI1_pinmux">
+         <property name="title">
+          <string>TSI1：</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="0" column="0">
+           <layout class="QVBoxLayout" name="verticalLayout_2">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_16">
+              <item>
+               <widget class="QLabel" name="label_16">
+                <property name="text">
+                 <string>TSI_DAT管脚：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="tsi1_dat_comboBox">
+                <item>
+                 <property name="text">
+                  <string>GPIO4_5</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO4_6</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO6_1</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_17">
+              <item>
+               <widget class="QLabel" name="label_17">
+                <property name="text">
+                 <string>TSI_VALID管脚：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="tsi1_valid_comboBox">
+                <item>
+                 <property name="text">
+                  <string>GPIO4_7</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO6_0</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_15">
+              <item>
+               <widget class="QLabel" name="label_15">
+                <property name="text">
+                 <string>TSI_CLK管脚：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="tsi1_clk_comboBox">
+                <item>
+                 <property name="text">
+                  <string>GPIO4_6</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO4_7</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO6_2</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_18">
+              <item>
+               <widget class="QLabel" name="label_18">
+                <property name="text">
+                 <string>TSI_SYNC管脚：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="tsi1_sync_comboBox">
+                <item>
+                 <property name="text">
+                  <string>GPIO4_5</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QGroupBox" name="TSI3_pinmux">
+         <property name="title">
+          <string>TSI3：</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_6">
+          <item row="0" column="0">
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_24">
+              <item>
+               <widget class="QLabel" name="label_24">
+                <property name="text">
+                 <string>TSI_DAT管脚：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="tsi3_dat_comboBox">
+                <item>
+                 <property name="text">
+                  <string>GPIO4_5</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO4_6</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO6_1</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_25">
+              <item>
+               <widget class="QLabel" name="label_25">
+                <property name="text">
+                 <string>TSI_VALID管脚：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="tsi3_valid_comboBox">
+                <item>
+                 <property name="text">
+                  <string>GPIO4_7</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO6_0</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_23">
+              <item>
+               <widget class="QLabel" name="label_23">
+                <property name="text">
+                 <string>TSI_CLK管脚：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="tsi3_clk_comboBox">
+                <item>
+                 <property name="text">
+                  <string>GPIO4_6</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO4_7</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>GPIO6_2</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_26">
+              <item>
+               <widget class="QLabel" name="label_26">
+                <property name="text">
+                 <string>TSI_SYNC管脚：</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="tsi3_sync_comboBox">
+                <item>
+                 <property name="text">
+                  <string>GPIO4_5</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="2">
+        <widget class="QGroupBox" name="tuner_intf_set">
+         <property name="title">
+          <string>接口线制选择（多路tuner）</string>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_27">
+          <item>
+           <widget class="QRadioButton" name="eight_line_radioButton">
+            <property name="text">
+             <string>8线制</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="nine_line_radioButton">
+            <property name="text">
+             <string>9线制</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="clk_share">
+            <property name="text">
+             <string>共用时钟选择</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="clk_share_comboBox">
+            <item>
+             <property name="text">
+              <string>TSI0_CLK</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>TSI1_CLK</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>TSI2_CLK</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>TSI3_CLK</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="I2C_set">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>20</y>
+        <width>175</width>
+        <height>110</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>I2C 设置</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>通道选择：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="i2c_chnl_comboBox">
+           <item>
+            <property name="text">
+             <string>I2C0</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>I2C1</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>I2C2</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>SCL_管脚：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="i2c_scl_pin_comboBox">
+           <item>
+            <property name="text">
+             <string>GPIO4_3</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>GPIO4_5</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>GPIO6_0</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>GPIO6_1</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>JTAG_TRSTN</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>PMC_GPU0</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>SDA_管脚：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="i2c_sda_pin_comboBox">
+           <item>
+            <property name="text">
+             <string>GPIO2_7</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>GPIO4_4</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>GPIO6_1</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>GPIO6_2</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>PMC_CORE0</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="Tuner_demod_set">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>351</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Tuner demod设置</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout_12">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_10">
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="text">
+              <string>Tuner选择：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="tuner_select_comboBox">
+             <item>
+              <property name="text">
+               <string>MXL608</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>R836</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>R858</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>MXL214C</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
+               <string>MXL254C</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_9">
+           <item>
+            <widget class="QLabel" name="label_9">
+             <property name="text">
+              <string>TunerAddr：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="tuner_addr_lineEdit">
+             <property name="text">
+              <string>C2</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_13">
+             <property name="text">
+              <string>（HEX）</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout_13">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_8">
+           <item>
+            <widget class="QLabel" name="label_10">
+             <property name="text">
+              <string>Demod选择：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QComboBox" name="demod_select_comboBox">
+             <item>
+              <property name="text">
+               <string>HI3110E</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_11">
+           <item>
+            <widget class="QLabel" name="label_11">
+             <property name="text">
+              <string>DemodAddr：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLineEdit" name="demod_addr_lineEdit">
+             <property name="text">
+              <string>A0</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_14">
+             <property name="text">
+              <string>（HEX）</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout_33">
+         <item>
+          <widget class="QLabel" name="label_31">
+           <property name="text">
+            <string>RESET管脚：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="gpio_reset_lineEdit">
+           <property name="text">
+            <string>GPIO8_3</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_32">
+           <property name="text">
+            <string>(GPIO_NO: GPIO6_2)</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>380</y>
+        <width>261</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_32">
+       <item>
+        <widget class="QPushButton" name="gen_regtable_btn">
+         <property name="text">
+          <string>生成reg表</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="gen_config_btn">
+         <property name="text">
+          <string>生成config</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="gen_code_btn">
+         <property name="text">
+          <string>生成代码</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <zorder>TSI_port_set</zorder>
+     <zorder>I2C_set</zorder>
+     <zorder>TSI_port_set</zorder>
+     <zorder>I2C_set</zorder>
+     <zorder>Tuner_demod_set</zorder>
+     <zorder>layoutWidget</zorder>
+     <zorder>layoutWidget</zorder>
+     <zorder>layoutWidget</zorder>
+     <zorder>layoutWidget</zorder>
+     <zorder>gen_regtable_btn</zorder>
+     <zorder>gen_config_btn</zorder>
+     <zorder>gen_code_btn</zorder>
+     <zorder>gpio_reset_lineEdit</zorder>
+     <zorder>label_32</zorder>
+     <zorder>label_31</zorder>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>智能卡配置</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>182</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>SIM 设置</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_8">
+       <item row="0" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout_14">
+         <item>
+          <widget class="QLabel" name="label_12">
+           <property name="text">
+            <string>SCI_CLK模式：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_10">
+           <item>
+            <property name="text">
+             <string>CMOS</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>OD</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout_28">
+         <item>
+          <widget class="QLabel" name="label_27">
+           <property name="text">
+            <string>SCI_VCCEN模式：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_24">
+           <item>
+            <property name="text">
+             <string>CMOS</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>OD</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout_29">
+         <item>
+          <widget class="QLabel" name="label_28">
+           <property name="text">
+            <string>SCI_RESET模式：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_25">
+           <item>
+            <property name="text">
+             <string>CMOS</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>OD</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="3" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout_30">
+         <item>
+          <widget class="QLabel" name="label_29">
+           <property name="text">
+            <string>SCI_VCCEN电平：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_26">
+           <item>
+            <property name="text">
+             <string>高电平</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>低电平</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="4" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout_31">
+         <item>
+          <widget class="QLabel" name="label_30">
+           <property name="text">
+            <string>SCI_DETECT电平：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_27">
+           <item>
+            <property name="text">
+             <string>高电平</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>低电平</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>460</y>
+      <width>841</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>控制台</string>
+     </attribute>
+     <layout class="QGridLayout" name="gridLayout_9">
+      <item row="0" column="0">
+       <widget class="QPlainTextEdit" name="logTextEdit">
+        <property name="plainText">
+         <string>ysstb_tools!</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>T</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>950</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuYTool_V1_0">
+    <property name="title">
+     <string>芯片选择</string>
+    </property>
+    <addaction name="actionHI3798MV200"/>
+    <addaction name="actionHI3798CV200"/>
+    <addaction name="actionHI3798MV100"/>
+    <addaction name="actionHI3796MV100"/>
+    <addaction name="actionHI3798MV300"/>
+   </widget>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>工具</string>
+    </property>
+    <addaction name="actionPinmux"/>
+    <addaction name="action"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>设置</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="actionF1"/>
+   </widget>
+   <addaction name="menuYTool_V1_0"/>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>RightToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>true</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionHI3798MV200">
+   <property name="text">
+    <string>HI3798MV200</string>
+   </property>
+  </action>
+  <action name="actionHI3798CV200">
+   <property name="text">
+    <string>HI3798CV200</string>
+   </property>
+  </action>
+  <action name="actionHI3798MV100">
+   <property name="text">
+    <string>HI3798MV100</string>
+   </property>
+  </action>
+  <action name="actionHI3796MV100">
+   <property name="text">
+    <string>HI3796MV100</string>
+   </property>
+  </action>
+  <action name="actionHI3798MV300">
+   <property name="text">
+    <string>HI3798MV300</string>
+   </property>
+  </action>
+  <action name="actionPinmux">
+   <property name="text">
+    <string>管脚复用</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>寄存器速查</string>
+   </property>
+  </action>
+  <action name="actionF1">
+   <property name="text">
+    <string>help</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
