@@ -1,9 +1,8 @@
 # ysstb_tools
 
 A chip pinmux tools on hisilicon chip series
----
 
-develop environment：  
+environment：  
 ---
 PC: windows 7  
 IDE: qt creater   
